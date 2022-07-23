@@ -2,6 +2,26 @@
     box-sizing: border-box;
 }
 
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar {
+        width: 600px;
+        height: 210px;
+        background: #200b2d;
+        border-radius: 10px ;
+        color:#fff;
+        text-align: center;
+    }
+
+    .header img {
+        border-radius: 50%;
+        width: 190px;
+        margin: 10px;
+        margin-right: 340px;
+    }
+
 body {
     font-family: Arial, Tahoma;
     background:#d3c7db;
