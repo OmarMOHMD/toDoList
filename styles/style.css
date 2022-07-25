@@ -142,6 +142,7 @@ body {
 }
 
 .task-stats {
+    display: flex;
     overflow: hidden;
     margin: 10px auto;
     width: 600px;
@@ -149,16 +150,12 @@ body {
 }
 
 .task-stats .tasks-count {
-    width: 50%;
-    float: left;
     padding: 10px;
+    margin-right: 100px;
 }
 
 .task-stats .tasks-completed {
-    width: 50%;
-    float: right;
     padding: 10px;
-    text-align: right;
 }
 
 .task-stats .tasks-count span,
