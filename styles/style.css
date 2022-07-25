@@ -46,15 +46,22 @@
 
     }
 
+    @media (min-width:614px) {
+        .todo-container {
+        max-width: 590px;
+    }
+    }
+
 body {
     font-family: Arial, Tahoma;
     background:#d3c7db;
 }
 
 .todo-container {
+    display: flex;
+    flex-direction: column;
     margin: 30px auto 0;
     background-color: #f6f6f6;
-    width: 600px;
 }
 
 .todo-container .add-task {
